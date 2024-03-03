@@ -13,7 +13,16 @@
         <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/about/</guid>
-        <description>&lt;h1 id=&#34;联系方式&#34;&gt;联系方式&lt;/h1&gt;
+        <description>&lt;style&gt;
+.article-header {
+    display: none;
+  }
+.article-footer {
+	display: none;
+  }
+
+&lt;/style&gt;
+&lt;h1 id=&#34;联系方式&#34;&gt;联系方式&lt;/h1&gt;
 &lt;p&gt;📫 &lt;a class=&#34;link&#34; href=&#34;mailto:jianli@zju.edu.cn&#34; &gt;jianli@zju.edu.cn&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
@@ -31,7 +40,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/goods/</guid>
-        <description></description>
+        <description>&lt;style&gt;
+.article-header {
+    display: none;
+  }
+.article-footer {
+	display: none;
+  }
+
+&lt;/style&gt;
+</description>
         </item>
         <item>
         <title>链接</title>
@@ -39,7 +57,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+        <description>&lt;style&gt;
+.article-header {
+    display: none;
+  }
+.article-footer {
+	display: none;
+  }
+
+&lt;/style&gt;
+&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
