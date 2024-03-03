@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://miskin-lee.github.io/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/c%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://miskin-lee.github.io/tags/c%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/c%E8%AF%AD%E8%A8%80%E5%AE%8F%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://miskin-lee.github.io/tags/c%E8%AF%AD%E8%A8%80%E5%AE%8F%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
+    <loc>https://miskin-lee.github.io/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://miskin-lee.github.io/page/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://miskin-lee.github.io/post/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://miskin-lee.github.io/tags/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://miskin-lee.github.io/about/</loc>
     <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://miskin-lee.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://miskin-lee.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/goods/</loc>
+    <loc>https://miskin-lee.github.io/goods/</loc>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://miskin-lee.github.io/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://miskin-lee.github.io/search/</loc>
   </url>
 </urlset>
