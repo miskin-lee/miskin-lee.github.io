@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='介绍C语言中宏定义以及宏的高级使用'>
 <title>C语言中宏的使用</title>
 
-<link rel='canonical' href='https://miskin-lee.github.io/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/'>
 
-<link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='C语言中宏的使用'>
+<link rel="stylesheet" href="/scss/style.min.f27560768282d1072a8928ee77254b71e3e70f1ed14ed2d3e38a8635ec26ce08.css"><meta property='og:title' content='C语言中宏的使用'>
 <meta property='og:description' content='介绍C语言中宏定义以及宏的高级使用'>
-<meta property='og:url' content='https://miskin-lee.github.io/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/'>
 <meta property='og:site_name' content='Miskin&#39;s Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='C语言' /><meta property='article:tag' content='C语言宏编程' /><meta property='article:published_time' content='2024-03-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-03-03T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="C语言中宏的使用">
 <meta name="twitter:description" content="介绍C语言中宏定义以及宏的高级使用">
-    <link rel="shortcut icon" href="/favicon.ico" />
-
     </head>
     <body class="
     article-page
@@ -30,7 +28,7 @@
     (function() {
         const colorSchemeKey = 'StackColorScheme';
         const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const support = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
         if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
             
@@ -214,9 +212,8 @@
             </a>
         </li>
         
-    </ol>
-    <div class="menu-bottom-section">
-        <ol class="menu">
+
+        <div class="menu-bottom-section">
 
             
                 <li id="dark-mode-toggle">
@@ -239,8 +236,8 @@
                     <span>暗色模式</span>
                 </li>
             
-        </ol>
-    </div>
+        </div>
+    </ol>
 </aside>
 
     <aside class="sidebar right-sidebar sticky">
@@ -425,7 +422,7 @@ today i will to explode</li>
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        
+        © 如有需要，请联系：jianli@zju.edu.cn
     </section>
 </footer>
 
