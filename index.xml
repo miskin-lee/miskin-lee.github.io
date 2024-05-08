@@ -2,18 +2,124 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Miskin&#39;s Blog</title>
-        <link>http://localhost:1313/</link>
+        <link>https://miskin-lee.github.io/</link>
         <description>Recent content on Miskin&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Miskin</copyright>
-        <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miskin-lee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Vim的使用</title>
+        <link>https://miskin-lee.github.io/p/vim%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://miskin-lee.github.io/p/vim%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;h1 id=&#34;什么是vim&#34;&gt;什么是Vim？&lt;/h1&gt;
+&lt;p&gt;Vim 是最流⾏的⽂本编辑软件之⼀，有 &lt;strong&gt;“编辑器之神”&lt;/strong&gt; 的美誉。&lt;/p&gt;
+&lt;p&gt;Vim的优势如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⾼效的移动&lt;/li&gt;
+&lt;li&gt;⾼效的编辑&lt;/li&gt;
+&lt;li&gt;⾼效的批量操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;vim使用方法&#34;&gt;Vim使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;vim的模式&#34;&gt;Vim的模式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normal模式&lt;/strong&gt;：默认进入的模式，最常用的模式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert模式&lt;/strong&gt;：插入模式，编辑文本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Command模式&lt;/strong&gt;： 命令模式，在底部输入命令&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual模式&lt;/strong&gt;：可视化模式，对文本进行选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;normal模式下的操作&#34;&gt;Normal模式下的操作&lt;/h2&gt;
+&lt;h3 id=&#34;基本移动&#34;&gt;基本移动&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;h/j/k/l&lt;/code&gt;：上/下/左/右&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳转到第一行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;G&lt;/code&gt;：跳转到最后一行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl+u&lt;/code&gt;/&lt;code&gt;Ctrl+b&lt;/code&gt;：往上翻半页/一页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl+d&lt;/code&gt;/&lt;code&gt;Ctrl+f&lt;/code&gt;：往下翻半页/一页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{lineno}+gg&lt;/code&gt;：跳转到第&lt;code&gt;{lineno}&lt;/code&gt;行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zz/zt/zb&lt;/code&gt;：光标设置为 屏幕居中/屏幕第一行/屏幕最后一行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;进入insert模式&#34;&gt;进入insert模式&lt;/h3&gt;
+&lt;p&gt;Normal 模式下通过特定命令进⼊ Insert 模式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i ：代表¢insert£，当前光标之前开始输⼊&lt;/li&gt;
+&lt;li&gt;a ：代表¢append£，当前光标之后开始输⼊&lt;/li&gt;
+&lt;li&gt;o ：下⽅插⼊新的⼀⾏，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;s ：删除当前光标的字符，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;I ：在本⾏的开头开始输⼊&lt;/li&gt;
+&lt;li&gt;A ：在本⾏的末尾开始输⼊&lt;/li&gt;
+&lt;li&gt;O ：上⽅插⼊新的⼀⾏，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;S ：删除当前⾏，然后开始输⼊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;大家好&#34;&gt;大家好&lt;/h4&gt;
+&lt;p&gt;在现代生活中
+在现代生活中
+&lt;img src=&#34;vim.png&#34; alt=&#34;Vim&#34; width = &#34;50&#34;&gt;
+作为我们大家的一个重点的关照对象，我想，这是不应该的，大家应该明白，什么是正确的，而不是一昧的知道索取。
+这是一个不正常的行为，要及时地予以纠正。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>C&#43;&#43;中的指针与引用</title>
+        <link>https://miskin-lee.github.io/p/c-%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88%E4%B8%8E%E5%BC%95%E7%94%A8/</link>
+        <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://miskin-lee.github.io/p/c-%E4%B8%AD%E7%9A%84%E6%8C%87%E9%92%88%E4%B8%8E%E5%BC%95%E7%94%A8/</guid>
+        <description>&lt;h1 id=&#34;c中的指针与引用&#34;&gt;C++中的指针与引用&lt;/h1&gt;
+&lt;h2 id=&#34;指针基本语法&#34;&gt;指针基本语法&lt;/h2&gt;
+&lt;p&gt;C++中的引用&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;内存分配&#34;&gt;内存分配&lt;/h2&gt;
+&lt;p&gt;在C++中，内存申请与释放的关键字分别是 &lt;strong&gt;new&lt;/strong&gt; 和 &lt;strong&gt;delete&lt;/strong&gt;，这点与C语言是不同的，在C中，内存的申请和释放是函数。&lt;/p&gt;
+&lt;h3 id=&#34;内存申请&#34;&gt;内存申请&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;申请一个单独内存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;val is : &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;内存的释放&#34;&gt;内存的释放&lt;/h3&gt;
+&lt;p&gt;在C++中，内存的申请和释放是可以立即赋值的，如果要是一个列表，那么可以通过 &lt;strong&gt;{}&lt;/strong&gt; 去赋值，如果是单个实例，可以通过 &lt;strong&gt;()&lt;/strong&gt; 去赋值&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>机场推荐 --- Tapfog</title>
-        <link>http://localhost:1313/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/</link>
+        <link>https://miskin-lee.github.io/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/</link>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/show.png" alt="Featured image of post 机场推荐 --- Tapfog" /&gt;&lt;p&gt;给大家推荐一个机场，十分稳定，本人目前已经使用了两年有余。&lt;/p&gt;
+        <guid>https://miskin-lee.github.io/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/</guid>
+        <description>&lt;img src="https://miskin-lee.github.io/p/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90---tapfog/show.png" alt="Featured image of post 机场推荐 --- Tapfog" /&gt;&lt;p&gt;给大家推荐一个机场，十分稳定，本人目前已经使用了两年有余。&lt;/p&gt;
 &lt;p&gt;Tapfog拥有 HKBGP 直连/三网优化IEPL专线高端大机场，节点包括，港，台，美，日，新加坡，韩国，英国，德国，法国，印度，泰国等，流媒体解锁。月最低 6.8元。注册即可白嫖体验，好用再买不迟。&lt;/p&gt;
 &lt;h1 id=&#34;机场的注册链接&#34;&gt;机场的注册链接&lt;/h1&gt;
 &lt;table&gt;
@@ -55,12 +161,12 @@ clash for windows的作者已经删库跑路了😄。&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>C语言中宏的使用</title>
-        <link>http://localhost:1313/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <title>C语言宏编程 宏的高级使用</title>
+        <link>https://miskin-lee.github.io/p/c%E8%AF%AD%E8%A8%80%E5%AE%8F%E7%BC%96%E7%A8%8B-%E5%AE%8F%E7%9A%84%E9%AB%98%E7%BA%A7%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/c%E8%AF%AD%E8%A8%80%E4%B8%AD%E5%AE%8F%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;h2 id=&#34;预处理器指令&#34;&gt;预处理器指令&lt;/h2&gt;
+        <guid>https://miskin-lee.github.io/p/c%E8%AF%AD%E8%A8%80%E5%AE%8F%E7%BC%96%E7%A8%8B-%E5%AE%8F%E7%9A%84%E9%AB%98%E7%BA%A7%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;h1 id=&#34;预处理器指令&#34;&gt;预处理器指令&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;#define&lt;/li&gt;
 &lt;li&gt;#undef&lt;/li&gt;
@@ -69,7 +175,7 @@ clash for windows的作者已经删库跑路了😄。&lt;/p&gt;
 &lt;li&gt;#和##的使用
 today i will to explode&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;使用例子&#34;&gt;使用例子&lt;/h2&gt;
+&lt;h1 id=&#34;使用例子&#34;&gt;使用例子&lt;/h1&gt;
 &lt;p&gt;在这个例子中，主要是一些不同的标志引起的&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -85,18 +191,20 @@ today i will to explode&lt;/li&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;h1 id=&#34;大家的简单使用&#34;&gt;大家的简单使用&lt;/h1&gt;
+&lt;p&gt;在我们的实现基础上，我们需要实现一个&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://miskin-lee.github.io/about/</link>
         <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://miskin-lee.github.io/about/</guid>
         <description>&lt;style&gt;
 .article-header {
     display: none;
@@ -116,10 +224,10 @@ today i will to explode&lt;/li&gt;
 &lt;p&gt;但是，要持续产出这样的内容，需要时间、精力，以及不小的财务支持。这就是为什么我们今天向您发出这份邀请——考虑成为我们的赞助者。您的每一份捐赠，都将直接用于内容创作和平台维护，帮助我们继续在这个快速变化的世界中提供价值和意义。&lt;/p&gt;
 &lt;h2 id=&#34;您的支持意味着世界&#34;&gt;您的支持意味着世界&lt;/h2&gt;
 &lt;p&gt;不论是一次性的捐赠，还是定期的支持，您的每一份贡献都极为宝贵。您不仅是在资助一个平台，更是在投资于知识、教育和社区的力量。作为回报，我们承诺将您的支持转化为更多高质量的内容，并在我们的博客上公开致谢每一位赞助者（除非您选择匿名）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/about/wechat.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://miskin-lee.github.io/about/wechat.jpg&#34;
 	width=&#34;452&#34;
 	height=&#34;612&#34;
-	srcset=&#34;http://localhost:1313/about/wechat_hu140d11c97113f0d212b7e40caf8e7166_57398_480x0_resize_q75_box.jpg 480w, http://localhost:1313/about/wechat_hu140d11c97113f0d212b7e40caf8e7166_57398_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://miskin-lee.github.io/about/wechat_hu140d11c97113f0d212b7e40caf8e7166_57398_480x0_resize_q75_box.jpg 480w, https://miskin-lee.github.io/about/wechat_hu140d11c97113f0d212b7e40caf8e7166_57398_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;微信支付&#34;
@@ -129,10 +237,10 @@ today i will to explode&lt;/li&gt;
 		data-flex-grow=&#34;73&#34;
 		data-flex-basis=&#34;177px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/about/alipay.jpg&#34;
+&gt; &lt;img src=&#34;https://miskin-lee.github.io/about/alipay.jpg&#34;
 	width=&#34;653&#34;
 	height=&#34;980&#34;
-	srcset=&#34;http://localhost:1313/about/alipay_hu5828db65fe29792b6122525e80567c87_130418_480x0_resize_q75_box.jpg 480w, http://localhost:1313/about/alipay_hu5828db65fe29792b6122525e80567c87_130418_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://miskin-lee.github.io/about/alipay_hu5828db65fe29792b6122525e80567c87_130418_480x0_resize_q75_box.jpg 480w, https://miskin-lee.github.io/about/alipay_hu5828db65fe29792b6122525e80567c87_130418_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;支付宝&#34;
@@ -148,18 +256,18 @@ today i will to explode&lt;/li&gt;
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://miskin-lee.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://miskin-lee.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>好物</title>
-        <link>http://localhost:1313/goods/</link>
+        <link>https://miskin-lee.github.io/goods/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/goods/</guid>
+        <guid>https://miskin-lee.github.io/goods/</guid>
         <description>&lt;style&gt;
 .article-header {
     display: none;
@@ -173,10 +281,10 @@ today i will to explode&lt;/li&gt;
         </item>
         <item>
         <title>链接</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://miskin-lee.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://miskin-lee.github.io/links/</guid>
         <description>&lt;style&gt;
 .article-header {
     display: none;
@@ -186,41 +294,31 @@ today i will to explode&lt;/li&gt;
   }
 
 &lt;/style&gt;
-&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
+&lt;p&gt;实现一个较好地文件，是一个比较好地内容&lt;/p&gt;
+&lt;!-- To use this feature, add `links` section to frontmatter.
+
+This page&#39;s frontmatter:
+
+```yaml
+links:
+  - title: GitHub
+    description: GitHub is the world&#39;s largest software development platform.
+    website: https://github.com
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: TypeScript
+    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+    website: https://www.typescriptlang.org
+    image: ts-logo-128.jpg
+``` --&gt;
+&lt;!-- 
+`image` field accepts both local and external images. --&gt;</description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://miskin-lee.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://miskin-lee.github.io/search/</guid>
         <description></description>
         </item>
         

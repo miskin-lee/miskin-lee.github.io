@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Vim on Miskin&#39;s Blog</title>
+        <link>https://miskin-lee.github.io/tags/vim/</link>
+        <description>Recent content in Vim on Miskin&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Miskin</copyright>
+        <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://miskin-lee.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Vim的使用</title>
+        <link>https://miskin-lee.github.io/p/vim%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://miskin-lee.github.io/p/vim%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;h1 id=&#34;什么是vim&#34;&gt;什么是Vim？&lt;/h1&gt;
+&lt;p&gt;Vim 是最流⾏的⽂本编辑软件之⼀，有 &lt;strong&gt;“编辑器之神”&lt;/strong&gt; 的美誉。&lt;/p&gt;
+&lt;p&gt;Vim的优势如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;⾼效的移动&lt;/li&gt;
+&lt;li&gt;⾼效的编辑&lt;/li&gt;
+&lt;li&gt;⾼效的批量操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;vim使用方法&#34;&gt;Vim使用方法&lt;/h1&gt;
+&lt;h2 id=&#34;vim的模式&#34;&gt;Vim的模式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Normal模式&lt;/strong&gt;：默认进入的模式，最常用的模式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Insert模式&lt;/strong&gt;：插入模式，编辑文本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Command模式&lt;/strong&gt;： 命令模式，在底部输入命令&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visual模式&lt;/strong&gt;：可视化模式，对文本进行选择&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;normal模式下的操作&#34;&gt;Normal模式下的操作&lt;/h2&gt;
+&lt;h3 id=&#34;基本移动&#34;&gt;基本移动&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;h/j/k/l&lt;/code&gt;：上/下/左/右&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gg&lt;/code&gt;：跳转到第一行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;G&lt;/code&gt;：跳转到最后一行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl+u&lt;/code&gt;/&lt;code&gt;Ctrl+b&lt;/code&gt;：往上翻半页/一页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl+d&lt;/code&gt;/&lt;code&gt;Ctrl+f&lt;/code&gt;：往下翻半页/一页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{lineno}+gg&lt;/code&gt;：跳转到第&lt;code&gt;{lineno}&lt;/code&gt;行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zz/zt/zb&lt;/code&gt;：光标设置为 屏幕居中/屏幕第一行/屏幕最后一行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;进入insert模式&#34;&gt;进入insert模式&lt;/h3&gt;
+&lt;p&gt;Normal 模式下通过特定命令进⼊ Insert 模式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i ：代表¢insert£，当前光标之前开始输⼊&lt;/li&gt;
+&lt;li&gt;a ：代表¢append£，当前光标之后开始输⼊&lt;/li&gt;
+&lt;li&gt;o ：下⽅插⼊新的⼀⾏，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;s ：删除当前光标的字符，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;I ：在本⾏的开头开始输⼊&lt;/li&gt;
+&lt;li&gt;A ：在本⾏的末尾开始输⼊&lt;/li&gt;
+&lt;li&gt;O ：上⽅插⼊新的⼀⾏，然后开始输⼊&lt;/li&gt;
+&lt;li&gt;S ：删除当前⾏，然后开始输⼊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;大家好&#34;&gt;大家好&lt;/h4&gt;
+&lt;p&gt;在现代生活中
+在现代生活中
+&lt;img src=&#34;vim.png&#34; alt=&#34;Vim&#34; width = &#34;50&#34;&gt;
+作为我们大家的一个重点的关照对象，我想，这是不应该的，大家应该明白，什么是正确的，而不是一昧的知道索取。
+这是一个不正常的行为，要及时地予以纠正。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
